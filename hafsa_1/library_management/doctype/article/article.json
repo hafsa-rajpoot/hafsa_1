@@ -1,0 +1,275 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "L.M.#####",
+ "creation": "2024-05-16 20:59:14.447786",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "column_break_uebwz",
+  "full_name",
+  "email_address",
+  "tum_tak_section",
+  "phone",
+  "dinchak_pooja",
+  "man_mast",
+  "article",
+  "love_me",
+  "location",
+  "amended_from",
+  "auto",
+  "label",
+  "image",
+  "barcode",
+  "button",
+  "fold",
+  "code",
+  "column_break_zeup6",
+  "color",
+  "currency",
+  "datetime",
+  "duration",
+  "html",
+  "password",
+  "signature",
+  "editor",
+  "rates",
+  "icon",
+  "readonly",
+  "break",
+  "percent"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "dinchak_pooja",
+   "fieldtype": "Autocomplete",
+   "label": "Dinchak Pooja",
+   "options": "ni jana is par\naaya ranjha maira"
+  },
+  {
+   "fieldname": "man_mast",
+   "fieldtype": "Select",
+   "label": "man mast",
+   "options": "man\nmast\nmagan\nbus\ntaira\nnam\ndohraye"
+  },
+  {
+   "fieldname": "article",
+   "fieldtype": "Link",
+   "label": "article",
+   "options": "Article"
+  },
+  {
+   "default": "0",
+   "fieldname": "love_me",
+   "fieldtype": "Check",
+   "label": "Love Me?"
+  },
+  {
+   "fieldname": "column_break_uebwz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tum_tak_section",
+   "fieldtype": "Section Break",
+   "label": "Tum Tak"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "location"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Article",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "auto",
+   "fieldtype": "Autocomplete",
+   "label": "auto comp",
+   "reqd": 1
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Attach",
+   "label": "attach"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "image",
+   "reqd": 1
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "barcode",
+   "search_index": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "button",
+   "search_index": 1
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Section Break",
+   "label": "code"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "color",
+   "reqd": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "currency ",
+   "non_negative": 1,
+   "precision": "0"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "date time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "duration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fold",
+   "fieldtype": "Fold",
+   "label": "fold"
+  },
+  {
+   "fieldname": "column_break_zeup6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "search_index": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "signature",
+   "search_index": 1
+  },
+  {
+   "fieldname": "editor",
+   "fieldtype": "Markdown Editor",
+   "label": "markdown"
+  },
+  {
+   "bold": 1,
+   "fieldname": "rates",
+   "fieldtype": "Rating",
+   "label": "rating",
+   "reqd": 1
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "icon"
+  },
+  {
+   "fieldname": "readonly",
+   "fieldtype": "Read Only",
+   "label": "read"
+  },
+  {
+   "fieldname": "break",
+   "fieldtype": "Tab Break",
+   "label": "break"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "percent"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-19 18:42:42.407068",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Article",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
